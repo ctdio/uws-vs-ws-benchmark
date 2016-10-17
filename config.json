@@ -1,0 +1,64 @@
+{
+    "suites": [
+        {
+            "type": "connection",
+            "totalConnections": 100
+        },
+        {
+            "type": "connection",
+            "totalConnections": 250
+        },
+        {
+            "type": "connection",
+            "totalConnections": 500
+        },
+        {
+            "type": "connection",
+            "totalConnections": 1000
+        },
+        {
+            "type": "connection",
+            "totalConnections": 1500
+        },
+        {
+            "type": "messages",
+            "totalConnections": 100,
+            "messagesToSend": 100
+        },
+        {
+            "type": "messages",
+            "totalConnections": 500,
+            "messagesToSend": 1000
+        },
+        {
+            "type": "messages",
+            "totalConnections": 500,
+            "messagesToSend": 2000
+        },
+        {
+            "type": "messages",
+            "totalConnections": 500,
+            "messagesToSend": 5000
+        },
+        {
+            "type": "messages",
+            "totalConnections": 500,
+            "messagesToSend": 10000
+        },
+        {
+            "type": "messages",
+            "totalConnections": 500,
+            "messagesToSend": 15000
+        },
+        {
+            "type": "messages",
+            "totalConnections": 500,
+            "messagesToSend": 25000
+        },
+        {
+            "type": "messages",
+            "totalConnections": 500,
+            "messagesToSend": 50000
+        }
+    ]
+}
